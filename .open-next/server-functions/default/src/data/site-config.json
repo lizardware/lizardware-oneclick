@@ -1,0 +1,36 @@
+{
+    "name": "Lizardware CMS",
+    "description": "Build for the Edge.",
+    "url": "https://lizardware.net",
+    "ogImage": "https://lizardware.net/og.jpg",
+    "links": {
+        "github": "https://github.com/Lizardministrator/Lizardware-Dev"
+    },
+    "seo": {
+        "title": "Lizardware CMS | Modern Edge-First Content Management",
+        "description": "Fast, developer-friendly CMS built on Cloudflare's edge network. Visual theme editor, WYSIWYG blog publishing, and sub-100ms performance.",
+        "keywords": [
+            "headless CMS",
+            "edge computing",
+            "content management",
+            "blog platform",
+            "Cloudflare Workers",
+            "Next.js CMS"
+        ],
+        "author": "Lizardware Team",
+        "twitterHandle": "@lizardware"
+    },
+    "openGraph": {
+        "type": "website",
+        "locale": "en_US",
+        "siteName": "Lizardware CMS"
+    },
+    "logoUrl": "🦎",
+    "favicon": "🦎",
+    "whiteLabel": false,
+    "business_type": "lizardware-official",
+    "navItems": [],
+    "template_id": "blogger",
+    "setup_completed": true,
+    "homePageSlug": ""
+}

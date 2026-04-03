@@ -1,0 +1,81 @@
+{
+  "colors": {
+    "light": {
+      "bodyBackground": "#d1fae5",
+      "headerBackground": "#a7f3d0",
+      "footerBackground": "#6ee7b7",
+      "contentBackground": "#e6fffa",
+      "borders": "#34d399",
+      "pageBackgroundPrimary": "#ecfdf5",
+      "pageBackgroundSecondary": "#d1fae5",
+      "pageBackgroundAlternate": "#059669",
+      "heroBackground": "#6ee7b7",
+      "heroGradientStart": "#a7f3d0",
+      "heroGradientEnd": "#34d399",
+      "heroGradientEnabled": true,
+      "headerText": "#14532d",
+      "footerText": "#166534",
+      "pageTitle": "#064e3b",
+      "pageSubtitle": "#16a34a",
+      "pageText": "#374151",
+      "infoBoxBg": "#ffffff",
+      "infoBoxText": "#064e3b",
+      "infoBoxLinkBg": "#ecfdf5",
+      "infoBoxLinkText": "#065f46",
+      "infoBoxLinkHover": "#22c55e",
+      "sectionHeader": "#dcfce7",
+      "heroText": "#064e3b",
+      "accordionBackground": "#a7f3d0",
+      "buttonBackground": "#10b981",
+      "cardBackground": "#ecfdf5",
+      "inputBackground": "#d1fae5"
+    },
+    "dark": {
+      "bodyBackground": "#020617",
+      "headerBackground": "#030a05",
+      "footerBackground": "#020617",
+      "contentBackground": "#0a1a0d",
+      "borders": "#0d2d18",
+      "pageBackgroundPrimary": "#030a05",
+      "pageBackgroundSecondary": "#05120a",
+      "pageBackgroundAlternate": "#14532d",
+      "heroBackground": "#064e3b",
+      "heroGradientStart": "#061009",
+      "heroGradientEnd": "#064e3b",
+      "heroGradientEnabled": true,
+      "headerText": "#ecfdf5",
+      "footerText": "#34d399",
+      "pageTitle": "#ecfdf5",
+      "pageSubtitle": "#22c55e",
+      "pageText": "#a7f3d0",
+      "infoBoxBg": "#0a1a0d",
+      "infoBoxText": "#ecfdf5",
+      "infoBoxLinkBg": "#14532d",
+      "infoBoxLinkText": "#ecfdf5",
+      "infoBoxLinkHover": "#4ade80",
+      "sectionHeader": "#0a2a14",
+      "heroText": "#ecfdf5",
+      "accordionBackground": "#0a1a0d",
+      "buttonBackground": "#0a1a0d",
+      "cardBackground": "#0a1a0d",
+      "inputBackground": "#05120a"
+    }
+  },
+  "borderRadius": "0.5rem",
+  "fontFamily": "Inter",
+  "spacing": {
+    "section": "4rem",
+    "container": "1.5rem",
+    "gap": "1.25rem",
+    "header": "3rem"
+  },
+  "shadows": {
+    "strength": "0.1"
+  },
+  "typography": {
+    "fontSizeTitle": "60px",
+    "fontSizeSubtitle": "30px",
+    "fontSizeDescription": "24px",
+    "fontSizeBase": "16px"
+  }
+}

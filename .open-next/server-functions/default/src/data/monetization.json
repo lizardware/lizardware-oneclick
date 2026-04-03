@@ -1,0 +1,27 @@
+{
+    "google_adsense": {
+        "enabled": true,
+        "client_id": "ca-pub-4975234108501249",
+        "slots": {
+            "sidebar": "1234567890",
+            "post_top": "2345678901",
+            "post_bottom": "3456789012"
+        }
+    },
+    "amazon_affiliate": {
+        "enabled": false,
+        "tag": "lizardware-20",
+        "market": "us"
+    },
+    "custom_ads": [
+        {
+            "id": "consulting-banner",
+            "name": "General IT Consulting Banner",
+            "enabled": true,
+            "type": "image",
+            "content": "/assets/ads/consulting-banner.jpg",
+            "link": "/services/it-consulting",
+            "placement": "sidebar"
+        }
+    ]
+}

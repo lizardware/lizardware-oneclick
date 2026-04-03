@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "functions": {
+    "/api/admin/changelogs/recent": {},
+    "/api/admin/diagnostics/wrangler-config": {},
+    "/api/admin/env": {},
+    "/api/admin/media": {},
+    "/api/admin/nav/suggestions": {},
+    "/api/admin/recent-docs": {},
+    "/api/admin/search": {},
+    "/api/admin/setup/lookup-account": {}
+  }
+}

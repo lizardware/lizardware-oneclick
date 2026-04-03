@@ -1,0 +1,14 @@
+{
+    "authors": [
+        {
+            "id": "lizardministrator",
+            "name": "Lizardministrator",
+            "bio": "Expert IT consultant and developer specialized in automation and cybersecurity.",
+            "avatar": "/assets/authors/lizardministrator.jpg",
+            "social": {
+                "github": "https://github.com/Lizardministrator",
+                "twitter": "https://twitter.com/lizardware"
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "name": "lizardware-cms-starter",
+    "main": ".open-next/worker.js",
+    "compatibility_date": "2024-11-18",
+    "compatibility_flags": [
+        "nodejs_compat"
+    ],
+    "assets": {
+        "directory": ".open-next/assets",
+        "binding": "ASSETS"
+    },
+    "kv_namespaces": [
+        {
+            "binding": "CONFIG_KV",
+            "id": "",
+            "preview_id": ""
+        }
+    ],
+    "d1_databases": [
+        {
+            "binding": "DB",
+            "database_name": "lizardware-starter-db",
+            "database_id": "",
+            "preview_database_id": ""
+        }
+    ],
+    "vars": {
+        "USE_D1_BLOG": "true"
+    },
+    "observability": {
+        "enabled": true,
+        "head_sampling_rate": 1,
+        "logs": {
+            "enabled": true,
+            "head_sampling_rate": 1,
+            "persist": true,
+            "invocation_logs": true
+        },
+        "traces": {
+            "enabled": true,
+            "persist": true,
+            "head_sampling_rate": 1
+        }
+    }
+}

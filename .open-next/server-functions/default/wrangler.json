@@ -1,0 +1,52 @@
+{
+    "name": "lizardware_cms",
+    "main": ".open-next/worker.js",
+    "compatibility_date": "2024-11-18",
+    "compatibility_flags": [
+        "nodejs_compat"
+    ],
+    "assets": {
+        "directory": ".open-next/assets",
+        "binding": "ASSETS"
+    },
+    "kv_namespaces": [
+        {
+            "binding": "CONFIG_KV",
+            "id": "preview_kv_id",
+            "preview_id": "preview_kv_id"
+        }
+    ],
+    "d1_databases": [
+        {
+            "binding": "DB",
+            "database_name": "lizardware-cms_db",
+            "database_id": "preview_d1_id",
+            "preview_database_id": "preview_d1_id"
+        }
+    ],
+    "r2_buckets": [
+        {
+            "binding": "MEDIA_BUCKET",
+            "bucket_name": "lizardware-cms-media-bucket",
+            "preview_bucket_name": "lizardware-cms-media-bucket"
+        }
+    ],
+    "vars": {
+        "USE_D1_BLOG": "true"
+    },
+    "observability": {
+        "enabled": true,
+        "head_sampling_rate": 1,
+        "logs": {
+            "enabled": true,
+            "head_sampling_rate": 1,
+            "persist": true,
+            "invocation_logs": true
+        },
+        "traces": {
+            "enabled": true,
+            "persist": true,
+            "head_sampling_rate": 1
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "lizardware-oneclick-launcher",
+  "version": "0.5.25",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Pre-compiled worker; skipping build'",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^4.55.0"
+  }
+}
