@@ -1,5 +1,5 @@
 {
-    "name": "lizardware-cms-starter",
+    "name": "lizardware-cms-standard",
     "main": ".open-next/worker.js",
     "compatibility_date": "2024-11-18",
     "compatibility_flags": [
@@ -19,7 +19,7 @@
     "d1_databases": [
         {
             "binding": "DB",
-            "database_name": "lizardware-starter-db",
+            "database_name": "lizardware-standard-db",
             "database_id": "",
             "preview_database_id": ""
         }
@@ -41,5 +41,11 @@
             "persist": true,
             "head_sampling_rate": 1
         }
-    }
+    },
+    "r2_buckets": [
+        {
+            "binding": "MEDIA_BUCKET",
+            "bucket_name": "lizardware-cms-media"
+        }
+    ]
 }
