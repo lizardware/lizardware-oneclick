@@ -1,13 +1,21 @@
 # Lizardware CMS
-Welcome to your new Edge-powered Content Management System.
 
-## 🚀 Getting Started
-If you have just deployed this repository via Cloudflare, your infrastructure is provisioning!
-1. Wait for the Cloudflare deployment pipeline to finish.
-2. Navigate to your new `.workers.dev` URL.
-3. Follow the on-screen Setup Wizard to initialize your database and create your Admin account.
+Lizardware CMS leverages Cloudflare's Edge network for zero-latency performance. Choose your deployment path below:
 
-## 💻 Local Development
-Because this is a compiled distribution, local development requires the Wrangler CLI to emulate the Cloudflare Edge network.
-1. Run `npm install`
-2. Run `npm run deploy` to manually push updates to your Cloudflare Worker.
+### Path A: Lizardware CMS Starter (No Credit Card Required)
+Deploy immediately on a free Cloudflare account without putting a credit card on file. Media storage defaults to Cloudinary.
+
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/lizardware/lizardware-oneclick/tree/starter)
+
+---
+
+### Path B: Lizardware CMS Standard (Integrated R2)
+Deploy with Cloudflare R2 natively bound to your project for zero-egress media storage directly on the edge. Requires a Cloudflare account with a valid payment method on file.
+
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/lizardware/lizardware-oneclick/tree/standard)
+
+---
+**💡 Deployment Pro-Tip: Deploying Multiple Sites?**
+If deploying multiple instances to the same Cloudflare account, simply edit the suggested default names for your D1 Database and KV Namespace during the wizard to ensure they are unique (e.g., `my-site-db`).
+
+---
